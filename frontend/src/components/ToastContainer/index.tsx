@@ -4,7 +4,7 @@ import { useTransition } from 'react-spring';
 import Toast from './Toast';
 
 import { Container } from './styles';
-import { ToastMessage } from '../../hooks/Toast';
+import { ToastMessage } from '../../hooks/toast';
 
 interface ToastContainerProps {
   messages: ToastMessage[];

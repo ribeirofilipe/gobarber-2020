@@ -5,8 +5,8 @@ import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
 import { useHistory, Link } from 'react-router-dom';
 
-import { useAuth } from '../../hooks/Auth';
-import { useToast } from '../../hooks/Toast';
+import { useAuth } from '../../hooks/auth';
+import { useToast } from '../../hooks/toast';
 
 import { Container, Content, AnimationContainer, Background } from './styles';
 
